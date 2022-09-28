@@ -15,5 +15,5 @@ spec:
         app: my-helloworld
     spec:
       containers:
-      - name: nginxpod-rs
+      - name: myenginexpod
         image: nginx
