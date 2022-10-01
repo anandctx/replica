@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
  name: mypod2-yaml
-labels:
+ labels:
   app: mypod2yml
 spec:
     containers:
