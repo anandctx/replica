@@ -4,7 +4,6 @@ metadata:
  name: mypod2-yaml
 labels:
   app: mypod2yml
-    
 spec:
     containers:
     - image: nginx
