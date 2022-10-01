@@ -4,7 +4,8 @@ metadata:
  name: loadbalancernginxhello
 spec:
  type: LoadBalancer
- selector: mypod3-yaml
+ selector: 
+  app: mypod3-yaml
  ports:
    - name: http
      port: 80
