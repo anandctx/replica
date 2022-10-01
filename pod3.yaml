@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: mypod3-yaml
+ labels:
+  app: pod-3-yaml
+spec:
+    containers:
+    - image: nginxdemos/hello
+      name: pod3container
