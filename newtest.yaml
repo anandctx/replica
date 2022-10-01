@@ -3,13 +3,11 @@ items:
 - apiVersion: v1
   kind: Pod
   metadata:
-    
     labels:
-      
+      run: mypod2normal
     name: mypod2normal
     namespace: default
-    
   spec:
     containers:
     - image: nginx
-      name: nginxcontainer2
+      name: mypod2normal
