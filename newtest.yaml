@@ -6,10 +6,10 @@ items:
     
     labels:
       
-    name: mypod1normal
+    name: mypod2normal
     namespace: default
     
   spec:
     containers:
     - image: nginx
-      name: nginxcontainer
+      name: nginxcontainer2
